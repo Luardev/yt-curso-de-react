@@ -55,11 +55,10 @@ function App() {
       newtasks
     ])
   }
-
   return (
     <>
-      <div className="w-screen h-screen bg-slate-400 flex justify-center p-6">
-        <div className="w-[500px] space-y-4">
+      <div className="min-h-screen w-full bg-slate-400 flex justify-center p-6">
+        <div className="w-[100%] md:w-[500px] space-y-4">
           <H1 className="text-3xl text-slate-100 font-bold text-center mb-3">
             Gerenciador de tarefas!
           </H1>
